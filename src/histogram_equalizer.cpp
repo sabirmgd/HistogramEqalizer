@@ -35,7 +35,6 @@ void HistogramEqualizer::compute_hist_16U(Mat & img, long* hist)
 void HistogramEqualizer::equalizeHist_16U(Mat & img)
 {
 	long hist[65536] = { 0 };
-	double ratio;
 	int i, j;
 
 	//assert(img.channels() == 1);
