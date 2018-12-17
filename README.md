@@ -6,7 +6,7 @@ This project is a simple histogram equalizer for 16 bit images.
 
 OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. It allows you to do process your images and do cool stuff such as object tracking, face recofnition etc. Most of the OpenCV functions cater for 8 bits images (perhaps for performance issues) and they don't cater for 16 bits images. 
 
-One example of these functions in OpenCV is calcHist, what it does basically is that, it reads and 8 bits image and calculte the histogram. This simple project has a 16 bit histogram equalizer instead for your 16 bits images.
+In this example, this is a histogram equalizer for a 16 bit images.
 
 # Background:
 ### Histogram Equalization:
