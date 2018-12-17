@@ -47,7 +47,7 @@ void HistogramEqualizer::equalizeHist_16U(Mat & img)
 	{
 		for (j = 0; j <= img.rows - 1; j++)
 		{
-			img.at<unsigned short>(j, i) = 65536.0*hist[img.at<unsigned short>(j, i)] / (img.cols*img.rows);
+			img.at<unsigned short>(j, i) = 65535.0*hist[img.at<unsigned short>(j, i)] / (img.cols*img.rows);
 		}
 	}
 }
